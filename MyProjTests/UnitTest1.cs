@@ -36,6 +36,7 @@ public class Tests
         // Assert
         Assert.That(obj.MyString, Is.EqualTo("test string"));
     }
+    // comment
     [Test]
     public void AlwaysFail()
     {
