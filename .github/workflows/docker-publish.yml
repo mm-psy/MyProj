@@ -60,6 +60,6 @@ jobs:
           file: MyProj/Dockerfile
           # push: ${{ github.event_name != 'pull_request' }}
           push: true
-          labels: nightly
+          tags: nightly
           cache-from: type=gha
           cache-to: type=gha,mode=max
