@@ -6,7 +6,6 @@ WORKDIR /src
 COPY ../MyProj.sln ./
 COPY ../MyProj ./MyProj
 COPY ../MyProjTests ./MyProjTests
-COPY ../TodoApi ./TodoApi
 
 # Restore dependencies
 RUN dotnet restore MyProj.sln
