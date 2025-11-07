@@ -36,4 +36,17 @@ public class Tests
         // Assert
         Assert.That(obj.MyString, Is.EqualTo("test string"));
     }
+    // comment
+    [Test]
+    public void AlwaysFail()
+    {
+        // Arrange
+        var obj = new MyClass();
+
+        // Act
+        obj.MyInt = 1;
+
+        // Assert
+        Assert.That(obj.MyInt, Is.EqualTo(5));
+    }
 }
